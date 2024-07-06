@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="This is a fitness website.Fitnees is an important thing and without fitness every man get diseases.Prefer fitness">
+    <meta name="robots" content="index,follow">
+    <title>Hammad Fitness Gym</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <style>
+        /* The css for the full body starts here */
+        body {
+            font-family: 'Poppins', sans-serif;
+           background:url(bgofgymweb.jpg);
+        }
+
+        /* The css for full body ends up here */
+        /* Our navbar css starts here */
+        .navbar {
+            background-color: FFFFFFF;
+
+        }
+
+        .navbar ul {
+            overflow: auto;
+        }
+
+        .navbar li {
+            float: left;
+            list-style: none;
+            margin: 23px 35px;
+        }
+
+        .navbar li a {
+            padding: 3px 3px;
+            text-decoration: none;
+            color: white;
+
+        }
+
+        .navbar li a:hover {
+            color: rgb(118, 85, 236)
+        }
+
+        /* our navbar css ends here */
+        .datacont {
+            color: white;
+            border: 4px solid black;
+            background-color: rgb(79, 79, 85);
+            width: 350px;
+            margin-left: 40px;
+            margin-top: 60px;
+            animation-name: malt;
+            animation-duration: 3s;
+            animation-iteration-count: 3;
+        }
+
+        @keyframes malt {
+            to {
+                margin-left: 240px;
+            }
+
+            from {
+                margin-left: 40px;
+            }
+        }
+
+        .datacant {
+            color: white;
+            border: 4px solid black;
+            background-color: rgb(79, 79, 85);
+            width: 350px;
+            margin-left: 865px;
+            ;
+            margin-top: 1px;
+            animation-name: mall;
+            animation-duration: 3s;
+            animation-iteration-count: 3;
+        }
+
+        @keyframes mall {
+            to {
+                margin-left: 665px;
+            }
+
+            From {
+                margin-left: 865px;
+            }
+        }
+
+        .para {
+            text-align: center;
+        }
+
+        nav ul li a#Logo {
+            font-size: 24px;
+            color: rgb(118, 85, 236);
+        }
+
+        nav ul li a#Logo:hover {
+            color: rgb(126, 116, 201);
+        }
+
+        .stomach:hover {
+            background-color: rgb(58, 57, 73);
+        }
+
+        label:hover {
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- The navbar html starts here -->
+    <div class="navigation menu">
+        <header>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#" id="Logo">Hammad fitness gym</a></li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact us</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+    <!-- The navbar html ends up here -->
+    <div class="datacont">
+        <div class="para">
+            <p>
+                The best gym of pakistan is hammad fitness gym.It has branch in every city.We treat eveyone nicely and
+                tell
+                them the rules of fitness.Fitness keep you away from diseases and keep you healthy.By filling the
+                following
+                details you can enter our gym.
+            </p>
+        </div>
+        <div class="forms">
+            <form action="backend.php" method="post">
+                <div class="aligninglabels">
+                    <label for="name">
+                        Name:<input type="text" id="name"><br>
+                    </label>
+                    <label for="type">
+                        &nbsp;&nbsp;&nbsp;&nbsp;Age:<input type="number" id="type"><br>
+                    </label>
+                    <label for="number">
+                        E-Mail:<input type="email" id="number"><br>
+                    </label>
+                </div>
+                Gender:
+                <label for="ahir">
+                    Male<input type="radio" name="my gender" id="ahir">
+                </label>
+                <label for="ubashir">
+                    Female<input type="radio" name="my gender" id="ubashir"><br>
+                </label>
+                City:<label for="city">
+                    <select name="my city" id="city">
+                        <option value="lahore">Lahore</option>
+                        <option value="Islamabad">Islamabad</option>
+                        <option value="Karachi">Karachi</option>
+                    </select>
+                </label>
+                <input type="submit" value="submit now" class="stomach">
+            </form>
+        </div>
+    </div>
+    <div class="datacant">
+        <div class="para">
+            <p>
+                The best gym of pakistan is hammad fitness gym.It has branch in every city.We treat eveyone nicely and
+                tell them the rules of fitness.Fitness keep you away from diseases and keep you healthy.By filling the
+                following details you can enter our gym.
+            </p>
+        </div>
+        <div class="forms">
+            <form action="backend.js" method="post">
+                <div class="ligninglabels">
+                    <label for="umer">
+                        Name:<input type="text" id="umer"><br>
+                    </label>
+                    <label for="zahid">
+                        &nbsp;&nbsp;&nbsp;&nbsp;Age:<input type="number" id="zahid"><br>
+                    </label>
+                    <label for="hammad">
+                        E-Mail:<input type="email" id="hammad"><br>
+                    </label>
+                </div>
+                Gender:
+                <label for="tahir">
+                    Male<input type="radio" name="my gender" id="tahir">
+                </label>
+                <label for="mubashir">
+                    Female<input type="radio" name="my gender" id="mubashir"><br>
+                </label>
+                City:<label for="city">
+                    <select name="my city" id="city">
+                        <option value="lahore">Lahore</option>
+                        <option value="Islamabad">Islamabad</option>
+                        <option value="Karachi">Karachi</option>
+                    </select>
+                </label>
+                <input type="submit" value="submit now" class="stomach">
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
